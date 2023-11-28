@@ -1,1 +1,1 @@
-# Temporizador Pomodoro
+# Cronometro
