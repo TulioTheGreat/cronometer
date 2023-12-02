@@ -11,12 +11,12 @@ let seconds = 0;
 let miliseconds = 0;
 let isPaused = false;
 
-startBtn.addEventListener("click", starTimer);
+startBtn.addEventListener("click", startTimer);
 pauseBtn.addEventListener("click", pauseTimer);
 resumeBtn.addEventListener("click", resumeTimer);
 resetBtn.addEventListener("click", resetTimer);
 
-function starTimer() {
+function startTimer() {
   interval = setInterval(() => {
     if (!isPaused) {
       miliseconds += 10;
